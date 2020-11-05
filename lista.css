@@ -1,13 +1,30 @@
 body{
     font-family: sans-serif;
+    background-color: lightgray;
 }
 
 h1{
 
 }
 
-p.a{
+ul{
+    list-style-type: none;
+}
+
+ul.lista1{
+    text-align: center;
+}
+
+ul.lista1 li{
+    padding:.5rem 3rem;
+    margin-right: 1rem;
+    float: left;
     background-color: green;
     color: purple;
-    border: purple dashed 3px;
+    border: purple dashed 5px;
+    font-weight: bold;
+}
+
+ul.lista2{
+
 }
